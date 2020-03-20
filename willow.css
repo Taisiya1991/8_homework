@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+    font-family: "Proxima Nova", serif; /* Семейство шрифтов */
+    background-color: #FAFAFA;
+    padding-top: 130px;
+    padding-left: 100px;
+    padding-bottom: 130px;
+    color: #5C5C5C;
+  }
+  @font-face{
+    font-family: Proxima Nova;
+    src: url(fonts/Proxima_Nova/.DS_Store);
+    src: url(fonts/Proxima_Nova/banner-proximanova580x290.jpg);
+    src: url(fonts/Proxima_Nova/Proxima Nova Black Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Bold Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Bold.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Black Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Black.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Bold Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Bold.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Extrabold Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Extrabold.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Light Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Light.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Regular Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Regular.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Semibold Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Semibold.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Thin Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Condensed Thin.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Black Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Black.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Bold Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Bold.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Extrabold Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Extrabold.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Light Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Light.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Regular Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Regular.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Semibold Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Semibold.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Thin Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extra Condensed Thin.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extrabold Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Extrabold.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Light Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Light.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Regular Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Regular.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Semibold Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Semibold.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Thin Italic.otf);
+    src: url(fonts/Proxima_Nova/Proxima Nova Thin.otf);
+  }
+
+ #container{
+  margin: 0 auto;
+  width: 90%;
+  background-color: #FFFFFF;
+  padding-top: 120px;
+  padding-left: 121px;
+  padding-bottom: 121px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+p{
+  padding-left: 121px;
+  padding-right: 121px;
+  font-size: 19px;
+  line-height: 30px;
+}
+a{
+  width: 265px;
+  height: 68px;
+  text-align: center;
+  color: #EAA258;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 22px;
+  margin-bottom: 101px;
+  margin-left: 121px;
+ }
+.decor{
+  border: 2px solid #EAA258;
+  background-color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 76px;
+  padding-right: 76px;
+  
+}
+.name{
+  text-transform: capitalize;
+  font-size: 37px;
+  padding-left: 121px;
+  color: #151515;
+}
+
+.first::first-letter{
+  text-transform: uppercase;
+  font-size: 104px;
+  float: left; /* Выравнивание по левому краю */
+  margin-top: 22px;
+  margin-bottom: 17px;
+  margin-right: 25px;
+  color: #151515;
+}
+.first{
+  padding-top: 22px;
+  padding-bottom: 29px;
+}
+#container :nth-child(3){
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+#container :nth-child(4){
+  padding-top: 10px;
+  padding-bottom: 22px;
+}
+#container :nth-child(5){
+  font-style: italic;
+  padding-top: 40px;
+  margin-bottom: 54px;
+  font-size: 19px;
+  padding-left: 168px;
+}
+a:hover{
+  background-color: #EAA258;
+  color: #FFFFFF;
+}

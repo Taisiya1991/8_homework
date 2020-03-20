@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  width: 1200px;
+}
+body{
+    background-color: #464F54;
+  }
+#container{
+    width: 90%; 
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    margin-top: 149px;
+    border-left: 2px solid #E8EBED;
+    height: 100%;
+    margin-left: 68px;
+} 
+  #search{
+    height: 187px;
+    width: 75%;
+    background-color: #181818;
+    float: right;
+    margin-top: 47px;    
+  }
+  .title{
+    color:#777777;
+    font-size: 15pt;
+    font-family: "Myriad Pro", serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-left: 63px;
+    padding-top: 50px;
+    padding-bottom: 8,5px;
+  }
+  #input{
+    color: #FEFEFE;
+    background-color: transparent;
+    font-family: "Myriad Pro", serif;
+    border-style: none;
+    font-size: 48px;
+    text-transform: capitalize;
+    padding-left: 66px;
+    padding-top: 8,5px;
+    padding-bottom: 75px;
+    outline: 0 none;
+  }
+  nav{
+    float: right; 
+    height: 76px;
+    width: 812px;
+    background-color: #F6BC2C;
+  }
+  
+
+
+.line{
+  border: 2px solid color: #E8EBED;
+  height: 100%;
+  float: left;
+  padding-left: 68px;
+}
+h5{
+  padding-left: 126px;
+  padding-top: 204px;
+  font-size: 20pt;
+  letter-spacing: 6px;
+  color: #B5B5B5;
+  font-family: "Myriad Pro", serif;
+}
+h1{
+  padding-left: 129px;
+  padding-top: 51px;
+  font-size: 78pt;
+  color: #2A2A2A;
+}
+h4{
+  padding-top: 22px;
+  padding-left: 124px;
+  font-size: 30pt;
+  font-family: "Georgia", serif;
+  font-style: italic;
+}
+p{
+  padding-top: 62px;
+  padding-left: 125px;
+  font-family: "Georgia", serif;
+  font-size: 27pt;
+  line-height: 40pt;
+}
